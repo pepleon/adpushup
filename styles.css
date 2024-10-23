@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #ff4a6e
+}
+
+.additional-section1{
+    padding: 60px;
+    background-color: #f3f3f3;
+    
+}
+
+.additional-section1 h2 {
+    color:#6a6a6a;
+}
+
+.iab{
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+
+
+
+.logo{
+    margin-bottom: 50px;
+    width:220px;
+}
+
+.logos{
+   
+    background-color: white;
+    width: 510px;
+    border-radius: 10px;
+    flex: 0 0 0;
+    padding: 10px;
+    margin-left: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.ndtv{
+    width: 170px;
+    height: 50px;
+}
+
+.check-logo{
+    width: 30px;
+}
+
+.left {
+    color: white;
+    width: 455px; 
+    flex: 0 0 455px; 
+    margin-left: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+.left p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.left .check {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.left .check img {
+    margin-right: 10px;
+}
+
+.right {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky;
+    position: fixed;
+    top: 80px;
+    right: 100px;
+    margin-left: 20px;
+    height: fit-content;
+    z-index: 100;
+}
+
+.form-container h2 {
+    color: #ff4a6e;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input,
+.form-container form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container form button {
+    padding: 15px;
+    background-color: #ff4a6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.form-container form button:hover {
+    background-color: #e0435f;
+}
+
+.form-container .terms {
+    font-size: 12px;
+    color: #777;
+}
+
+.additional-section {
+    padding: 50px;
+    background-color: #f3f3f3;
+}
+
+.additional-section p{
+    font-size: 25px;
+    padding-left: 50px;
+    color: #454444;
+}
+
+
+
+.additional-section2 {
+    padding: 50px;
+    background-color: #FFF4F4;
+}
+
+
+
+.additional-section2 h1 {
+    font-size: 60px;
+    padding-left: 100px;
+    padding-right: 600px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.specific-section {
+    padding: 80px;
+    padding-right: 580px;
+    background-color: #FFEFEF;
+}
+
+.specific-section h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+
+.specific-section .content {
+    max-width: 60%;
+}
+
+.specific-section .content .highlight {
+    font-size: 40px;
+    color: #FF5A5F;
+    margin-bottom: 10px;
+}
+
+.specific-section .content p {
+    font-size: 28px;
+    color: #404040;
+    padding-right: 40px;
+}
+
+.specific-section .image {
+    padding-top: 40px;
+    width: 26%;
+    max-width: 40%;
+}
+
+.specific-section .image img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.reasons-section {
+    padding: 50px;
+    padding-right: 500px; 
+    background-color: white;
+
+}
+
+.reasons-section h1 {
+    font-size: 60px;
+    color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-right: 180px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    padding-left: 80px;
+}
+
+.card {
+    background-color: #FF5E5E;
+    color: white;
+    padding: 20px;
+    border-radius: 18px;
+    width: 330px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+    transition: transform 1.5s ease;
+}
+
+.card img {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.card h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 28px;
+    text-align: center;
+}
+
+.card.visible {
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+.integration-section {
+    padding: 20px;
+    padding-right: 120px;
+    background-color: white;
+    text-align: center;
+}
+
+.integration-section h1 {
+    font-size: 30px;
+    color: #525151;
+    margin-bottom: 20px;
+    padding-right: 450px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 70px;
+    padding-bottom: 100px;
+
+}
+
+.slide {
+    min-width: 25%; 
+    transition: transform 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px; 
+}
+
+.slide img {
+    width: 100%; 
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+    margin-right: 10px; 
+}
+
+.slide img:hover {
+    filter: grayscale(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-sliding-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(90deg, #FF5E62 0%, #FF9966 100%); 
+    height: 75vh;
+    color: white;
+}
+
+.custom-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 150px;
+    padding-left: 50px;
+}
+
+.custom-text-content {
+    max-width: 50%;
+    padding-right: 20px;
+    font-size: 100px;
+    line-height: 1.2;
+}
+
+.custom-text-content h2 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.custom-text-content p {
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+
+.custom-slide-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.custom-slide-in.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.custom-image-content {
+    padding: 20px 150px 20px 0px;
+    width: 50%;
+}
+
+.custom-image-content img {
+    max-width: 100%;
+    border-radius: 15px;
+}
